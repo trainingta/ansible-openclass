@@ -1,0 +1,9 @@
+---
+# handlers file for apache
+
+#1. Cette tâche installe PHP et ses extensions
+- name: "install php packages�~@~\
+service:
+  name: "apache2"
+  state: "restarted"
+~                   
